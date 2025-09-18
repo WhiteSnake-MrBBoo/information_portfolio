@@ -51,8 +51,12 @@
 - 운영 인력의 수작업을 줄이고, 예약/수정/알림의 **단계 시간을 단축**  
 - 단일 페이지 재사용 구조로 **프론트 유지보수성** 향상
 
-[자세히 보기 →](docs/hexastay-admin.md)  
-<img src="assets/hexastay-admin-overview.png" width="800" alt="HexaStay Admin Overview" />
+<!-- Card 1 -->
+<div align="center">
+  <a href="docs/hexastay-admin.md">
+    <img src="assets/hexastay-admin-overview.png" alt="HexaStay Admin" width="820">
+  </a>
+</div>
 
 ---
 
@@ -67,8 +71,13 @@
 - 한 화면에서 **상황 인지** 및 **의사결정 속도** 개선  
 - 영역 단위 경보로 **오탐/미탐 피드백 루프** 구축
 
-[자세히 보기 →](docs/cctv-vision-dashboard.md)  
-<img src="assets/cctv-dashboard.gif" width="800" alt="CCTV Dashboard Demo" />
+
+<!-- Card 2 -->
+<div align="center">
+  <a href="docs/cctv-vision-dashboard.md">
+    <img src="assets/cctv-dashboard.gif" alt="CCTV Vision AI Dashboard" width="820">
+  </a>
+</div>
 
 ---
 
@@ -83,8 +92,12 @@
 - 분석 리드타임 **단축** / 사내 리포팅 **반자동화**  
 - 프롬프트 프리셋 & 파이프라인 표준화
 
-[자세히 보기 →](docs/uipath-blind-review-pipeline.md)  
-<img src="assets/uipath-pipeline-arch.png" width="800" alt="UiPath Pipeline Architecture" />
+<!-- Card 3 -->
+<div align="center">
+  <a href="docs/uipath-blind-review-pipeline.md">
+    <img src="assets/uipath-pipeline-arch.png" alt="UiPath Review Summarization Pipeline" width="820">
+  </a>
+</div>
 
 ---
 
@@ -98,8 +111,12 @@
 **성과(예시):**  
 - 비개발자도 **데이터 적재** 가능 / 샌드박스 테이블로 도메인 실험 가속
 
-[자세히 보기 →](docs/excel-to-mariadb-importer.md)  
-<img src="assets/excel-importer-erd.png" width="800" alt="Excel Importer ERD" />
+<!-- Card 4 -->
+<div align="center">
+  <a href="docs/excel-to-mariadb-importer.md">
+    <img src="assets/excel-importer-erd.png" alt="Excel to MariaDB Importer" width="820">
+  </a>
+</div>
 
 ---
 
