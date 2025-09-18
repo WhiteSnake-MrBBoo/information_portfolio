@@ -1,8 +1,8 @@
-
 ---
 
 ## 3) `docs/uipath-blind-review-pipeline.md`
-```markdown
+
+
 # UiPath 리뷰 요약 자동화 파이프라인
 
 <p align="center">
