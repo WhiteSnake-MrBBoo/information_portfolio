@@ -2,17 +2,28 @@
 
 
 <div align="center">
-  <h1>김뿌뿌뿌 · Backend & RPA & CV Engineer</h1>
-  <p>Spring Boot · Thymeleaf · MariaDB · ModelMapper · YOLOv11 · OpenCV · UiPath · AWS</p>
+  <h1>김부환 · Backend & RPA & CV Engineer</h1>
+  
+  <!--스텟 아이콘으로 변경-->
+  <p align="center">
+  <a href="https://spring.io/projects/spring-boot"><img src="https://img.shields.io/badge/Spring%20Boot-3.4-6DB33F?logo=springboot&logoColor=white" /></a>
+  <a href="https://www.thymeleaf.org/"><img src="https://img.shields.io/badge/Thymeleaf-View-005F0F?logo=thymeleaf&logoColor=white" /></a>
+  <a href="https://mariadb.org/"><img src="https://img.shields.io/badge/MariaDB-Server-003545?logo=mariadb&logoColor=white" /></a>
+  <a href="https://modelmapper.org/"><img src="https://img.shields.io/badge/ModelMapper-DI-FF6F00" /></a><br>
+  <a href="https://github.com/ultralytics/ultralytics"><img src="https://img.shields.io/badge/YOLO-v11-222222" /></a>
+  <a href="https://opencv.org/"><img src="https://img.shields.io/badge/OpenCV-Computer%20Vision-5C3EE8?logo=opencv&logoColor=white" /></a>
+  <a href="https://www.uipath.com/"><img src="https://img.shields.io/badge/UiPath-VB.NET%20Invoke%20Code-FA4616?logo=uipath&logoColor=white" /></a>
+  <a href="https://aws.amazon.com/"><img src="https://img.shields.io/badge/AWS-Cloud-232F3E?logo=amazon-aws&logoColor=white" /></a>
+  <a href="https://adoptium.net/temurin/releases/?version=21"><img src="https://img.shields.io/badge/JDK-21-007396?logo=java&logoColor=white" /></a>
+</p>
   <p>
     <a href="README_en.md">English</a> ·
-    <a href="mailto:you@example.com">Email</a> ·
+    <a href="mailto:mrbulsapabb@gmail.com">Email</a> ·
     <a href="https://www.linkedin.com/in/your-id">LinkedIn</a>
   </p>
 </div>
 
 <!-- 빈 줄 하나 아래에도 둬야 함 -->
-
 ---
 
 ## 👋 10초 요약
