@@ -7,7 +7,7 @@ markdown
 # CCTV Vision AI Dashboard – 폴리곤 영역 경보 & 실시간 분석
 
 <p align="center">
-  <img src="../assets/cctv-dashboard.gif" width="820" alt="CCTV Dashboard">
+  <img src="../assets/cctv-dashboard.png" width="820" alt="CCTV Dashboard">
 </p>
 
 ## 개요
