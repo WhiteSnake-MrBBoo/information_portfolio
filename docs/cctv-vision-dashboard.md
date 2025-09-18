@@ -6,9 +6,37 @@
 markdown
 # CCTV Vision AI Dashboard – 폴리곤 영역 경보 & 실시간 분석
 
-<p align="center">
-  <img src="../assets/cctv-dashboard.png" width="820" alt="CCTV Dashboard">
-</p>
+## 🎬 데모 영상 (CCTV Vision)
+
+<!-- 반응형 느낌을 위한 래퍼: GitHub에서도 잘 동작하는 가장 안전한 형태 -->
+<div align="center">
+
+  <!-- HTML5 비디오: 모바일 자동재생은 muted + playsinline 필요 -->
+  <video 
+    src="../assets/videos/cctv-demo.mp4"
+    poster="../assets/cctv-dashboard-poster.png"
+    width="820"
+    controls
+    muted
+    playsinline
+  >
+    <!-- 브라우저 호환을 더 챙기고 싶으면 source 태그 2개 형태로도 가능:
+    <source src="../assets/videos/cctv-demo.webm" type="video/webm">
+    <source src="../assets/videos/cctv-demo.mp4"  type="video/mp4">
+    -->
+    <!-- 대체 링크: 비디오 태그가 안 먹히는 뷰어용 -->
+    <a href="../assets/videos/cctv-demo.mp4">Watch the demo video</a>
+  </video>
+
+  <br/><br/>
+
+  <!-- 썸네일 클릭 시 동영상으로 이동: 일부 뷰어에서 비디오 태그 제한될 경우 대비 -->
+  <a href="../assets/videos/cctv-demo.mp4" target="_blank" rel="noopener">
+    <img src="../assets/cctv-dashboard-poster.png" width="360" alt="Open CCTV Demo Video">
+  </a>
+
+</div>
+
 
 ## 개요
 YOLOv11 + OpenCV로 폴리곤 Region 침입/체류 감지, 실시간 경보/차트 대시보드.
