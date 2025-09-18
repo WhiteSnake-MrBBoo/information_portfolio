@@ -5,9 +5,29 @@
 
 # UiPath 리뷰 요약 자동화 파이프라인
 
-<p align="center">
-  <img src="../assets/uipath-pipeline-arch.png" width="820" alt="UiPath Pipeline Architecture">
-</p>
+## 🎬 데모 영상 (UiPath Review Pipeline)
+
+<div align="center">
+
+  <video
+    src="../assets/videos/uipath-demo.mp4"
+    poster="../assets/uipath-pipeline-poster.png"
+    width="820"
+    controls
+    muted
+    playsinline
+  >
+    <a href="../assets/videos/uipath-demo.mp4">Watch the demo video</a>
+  </video>
+
+  <br/><br/>
+
+  <a href="../assets/videos/uipath-demo.mp4" target="_blank" rel="noopener">
+    <img src="../assets/uipath-pipeline-poster.png" width="360" alt="Open UiPath Demo Video">
+  </a>
+
+</div>
+
 
 ## 개요
 Blind 리뷰 텍스트를 긍/부정/결론 3단으로 요약하고 Excel로 자동 출력.
