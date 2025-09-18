@@ -3,8 +3,8 @@
 
 <div align="center">
   <h1>김부환 · Backend & RPA & CV Engineer</h1>
-  
-  <!--스텟 아이콘으로 변경-->
+
+  <!-- 스택 아이콘 (뱃지 벨트) -->
   <p align="center">
     <a href="https://spring.io/projects/spring-boot"><img src="https://img.shields.io/badge/Spring%20Boot-3.4-6DB33F?logo=springboot&logoColor=white" /></a>
     <a href="https://www.thymeleaf.org/"><img src="https://img.shields.io/badge/Thymeleaf-View-005F0F?logo=thymeleaf&logoColor=white" /></a>
@@ -17,7 +17,7 @@
     <a href="https://www.uipath.com/"><img src="https://img.shields.io/badge/UiPath-VB.NET%20Invoke%20Code-FA4616?logo=uipath&logoColor=white" /></a>
     <a href="https://aws.amazon.com/"><img src="https://img.shields.io/badge/AWS-Cloud-232F3E?logo=amazon-aws&logoColor=white" /></a>
     <a href="https://adoptium.net/temurin/releases/?version=21"><img src="https://img.shields.io/badge/JDK-21-007396?logo=java&logoColor=white" /></a>
-</p>
+  </p>
 
   <p>
     <a href="README_en.md">English</a> ·
@@ -71,11 +71,10 @@
 - 한 화면에서 **상황 인지** 및 **의사결정 속도** 개선  
 - 영역 단위 경보로 **오탐/미탐 피드백 루프** 구축
 
-
-<!-- Card 2 -->
+<!-- 시도 1: ./ 접두어 추가 (상대경로 명확화) -->
 <div align="center">
   <a href="docs/cctv-vision-dashboard.md">
-    <img src="assets/cctv-dashboard.gif" alt="CCTV Vision AI Dashboard" width="820">
+    <img src="./assets/cctv-dashboard.png" alt="CCTV Vision AI Dashboard" width="820">
   </a>
 </div>
 
