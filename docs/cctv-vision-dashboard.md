@@ -2,7 +2,8 @@
 ---
 
 ## 2) `docs/cctv-vision-dashboard.md`
-```markdown
+
+markdown
 # CCTV Vision AI Dashboard – 폴리곤 영역 경보 & 실시간 분석
 
 <p align="center">
