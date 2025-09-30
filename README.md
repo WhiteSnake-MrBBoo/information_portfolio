@@ -85,14 +85,14 @@
 <div align="center">
   <a href="docs/cctv-vision-dashboard.md">
     <video 
-      src="./assets/videos/cctv-demo.mp4"
+      src="./assets/videos/cctv-dashboard.mp4"
       poster="./assets/cctv-dashboard-poster.png"
       width="820"
-      controls
+      controlss
       muted
       playsinline
     >
-      <a href="./assets/videos/cctv-demo.mp4">Watch the demo video</a>
+      <a href="./assets/videos/cctv-dashboard.mp4">Watch the demo video</a>
     </video>
   </a>
 </div>

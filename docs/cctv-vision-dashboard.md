@@ -8,7 +8,7 @@
 
   <!-- HTML5 비디오 -->
   <video 
-    src="../assets/videos/cctv-demo.mp4"
+    src="../assets/videos/cctv-dashboard.mp4"
     poster="../assets/cctv-dashboard-poster.png"
     width="820"
     controls
@@ -21,7 +21,7 @@
   <br/><br/>
 
   <!-- 썸네일 링크 (fallback) -->
-  <a href="../assets/videos/cctv-demo.mp4" target="_blank" rel="noopener">
+  <a href="../assets/videos/cctv-dashboard.mp4" target="_blank" rel="noopener">
     <img src="../assets/cctv-dashboard-poster.png" width="360" alt="Open CCTV Demo Video">
   </a>
 
