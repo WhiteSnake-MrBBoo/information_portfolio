@@ -49,12 +49,9 @@ Spring Boot 3.4 + Thymeleaf + MariaDB 기반의 **호텔 관리 관리자 대시
     <img src="../assets/hexastay-qr-sample.png" width="240" alt="HexaStay Mobile QR">
   </a>
 </p>
-
-- **QR 이미지**: `../assets/hexastay-qr-sample.png` (실서비스에서는 동적 생성)  
-- **QR 링크 - 객실이용고객의 경로**:  
-  `http://wooriproject.iptime.org:9002/qr/4`  
-- **QR 링크 비밀번호**:  
-  `7284` 
+ 
+- **QR 링크 - 객실이용고객의 경로**: http://wooriproject.iptime.org:9002/qr/4 
+- **QR 링크 비밀번호**:   `7284` 
 
 > 모바일 최적화된 **QR 인증 페이지**를 제공하며, 링크는 만료 가능한 **서명 토큰/단기 PIN**으로 보호됩니다.
 
