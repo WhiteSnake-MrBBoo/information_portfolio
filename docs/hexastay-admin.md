@@ -7,20 +7,32 @@
   </a>
 </p>
 
+---
+
+> ℹ️ **Tip:** 새 탭에서 열려면 **Ctrl/Cmd + 클릭** 또는 **마우스 가운데 버튼**을 사용하세요.  
+> ⚠️ **주의:** 실제 운영 환경 관리자 계정(ID/PW)은 보안상 공개하지 않습니다.
+
 ## 🔗 빠른 링크 (Quick Links)
 
-- **메인 도메인** : [wooriproject.iptime.org:9002](http://wooriproject.iptime.org:9002)  
-- **QR 인증 페이지 (고객용)** : [wooriproject.iptime.org:9002/qr/4](http://wooriproject.iptime.org:9002/qr/4) :암호 '7284'
-- **프로젝트 리포지토리** : [GitHub – information_portfolio](https://github.com/WhiteSnake-MrBBoo/information_portfolio)  
+### 🌐 메인 도메인
+[**wooriproject.iptime.org:9002**](http://wooriproject.iptime.org:9002)
 
-> ### ℹ️ **Tip:** 링크를 새 탭에서 열려면 **Ctrl / Cmd + 클릭** 또는 **마우스 가운데 버튼**을 사용하세요.  
-> ⚠️ **주의:** 실제 시스템 운영 계정(ID/PW)은 보안상 공개하지 않습니다 양해 부탁 드립니다.
+> 🟢 **로그인 정보**  
+> ### **ID:** `gimdPfud@gmail.com`  
+> ### **PW:** `030111`  
+> **권한:** 관리자 ERP (읽기 / 편집 / 시스템 권한)
 
+---
 
-## 🔐 MAIN 로그인 정보
-- ## **ID:** `gimdPfud@gmail.com`  
-- ## **PW:** `030111`  
-- 권한: *관리자용(ERP) 페이지 권한(읽기/기본 편집 가능 및 시스템 권한 부여 가능)*
+### 🔑 QR 인증 페이지 (고객용)
+[**wooriproject.iptime.org:9002/qr/4**](http://wooriproject.iptime.org:9002/qr/4)  
+
+> ### 🔵 **접속 암호:** `7284`
+
+---
+
+### 📂 프로젝트 리포지토리
+[**GitHub – information_portfolio**](https://github.com/WhiteSnake-MrBBoo/information_portfolio)
 
 ---
 
@@ -45,7 +57,7 @@ Spring Boot 3.4 + Thymeleaf + MariaDB 기반의 **호텔 관리 관리자 대시
 
 ---
 
-## 📱 객식 이용고개 모바일·QR 전용 섹션
+## 📱 객실 이용고객 모바일·QR 전용 섹션
 <p align="center">
   <!-- QR 이미지(샘플): 클릭 시 QR URL로 이동 -->
   <a href="http://wooriproject.iptime.org:9002/qr/4" target="_blank" rel="noopener">
@@ -74,8 +86,7 @@ Spring Boot 3.4 + Thymeleaf + MariaDB 기반의 **호텔 관리 관리자 대시
 
 ## 🤖 AI 자동화(옵션 기능)
 - **예약 확인/변경 요청 요약**: 고객 자유서술 요청을 요약하여 **일정/필드 자동 채움** 제안  
-- **후기/문의 감성 분석**: 긍/부정 태깅으로 CS 우선순위 결정  
-- **RPA 연동(UiPath)**: 외부 스프레드시트/CRM과 **양방향 동기화** (Invoke Code + JSON 파싱 표준화)
+- **메뉴 추천/장소 추천 분석**: 시스템안에 DB정보를 바탕으로 분석 / CS 우선순위 결정  
 
 > *AI 기능은 추적 가능한 로그/실패 시나리오를 함께 설계하여 운영 신뢰성을 확보했습니다.*
 
@@ -84,5 +95,5 @@ Spring Boot 3.4 + Thymeleaf + MariaDB 기반의 **호텔 관리 관리자 대시
 ## 🏗 아키텍처
 - **Backend:** Spring Boot 3.4, JDK 21, ModelMapper, JPA, MariaDB, AWS  
 - **Frontend:** Thymeleaf, Bootstrap 5, HTML5/CSS3/JS  
-- **Integration:** SMTP(메일), WebSocket(대시보드 실시간), (선택) AI Inference API
+- **Integration:** SMTP(메일), WebSocket(대시보드 실시간), AI Inference API(Google Gemini)
 
