@@ -10,14 +10,14 @@
 ## 🔗 빠른 링크(Quick Links)
 - **MAIN HexaStary 프로젝트 도메인**: http://wooriproject.iptime.org:9002
 - **QR 링크 : 고객이용용**: http://wooriproject.iptime.org:9002/qr/4
-- **리포지토리(예시)**: https://github.com/your-id/hexastay-admin
+- **리포지토리(예시)**: https://github.com/WhiteSnake-MrBBoo/information_portfolio
 
-> ⚠️ 보안상 실제 운영 도메인과 자격증명은 노출하지 않습니다. 아래 데모 계정은 샘플입니다.
+> ⚠️ 보안상 실제 시스템 관리자 권한 부여 아이디는 노출하지 않습니다.
 
-## 🔐 데모 로그인 정보
-- ## **ID:** `demo@hexastay.com`  
-- ## **PW:** `hexa-demo-2025`  
-- 권한: *관리자 데모 권한(읽기/기본 편집 가능, 파괴적 작업 제한)*
+## 🔐 MAIN 로그인 정보
+- ## **ID:** `gimdPfud@gmail.com`  
+- ## **PW:** `030111`  
+- 권한: *관리자용(ERP) 페이지 권한(읽기/기본 편집 가능 및 시스템 권한 부여 가능)*
 
 ---
 
@@ -38,6 +38,7 @@ Spring Boot 3.4 + Thymeleaf + MariaDB 기반의 **호텔 관리 관리자 대시
 - **모달 기반 검색·수정** (HotelRoom 이미지/메타 포함, `@Query` + Service(ModelMapper) + JSON 응답)
 - **공통 템플릿 재사용**: 하나의 `roomlist.html`로 경로별/조건별 리스트 출력
 - **예외 메시지의 UI 전달**: 사용자 가시성 강화
+- **매출 분석 및 매출 데이터 EXCEL 데이터 다운로드 가능
 
 ---
 
@@ -50,18 +51,19 @@ Spring Boot 3.4 + Thymeleaf + MariaDB 기반의 **호텔 관리 관리자 대시
 </p>
 
 - **QR 이미지**: `../assets/hexastay-qr-sample.png` (실서비스에서는 동적 생성)  
-- **QR 링크 경로(예시)**:  
-  `https://demo.hexastay.example.com/qr/verify?code=ROOM-AB12`  
-- **QR 링크 비밀번호(예시)**:  
-  `?code=ROOM-AB12&pin=4932` *(또는 세션/토큰 기반 권장)*
+- **QR 링크 - 객실이용고객의 경로**:  
+  `http://wooriproject.iptime.org:9002/qr/4`  
+- **QR 링크 비밀번호**:  
+  `7284` 
 
 > 모바일 최적화된 **QR 인증 페이지**를 제공하며, 링크는 만료 가능한 **서명 토큰/단기 PIN**으로 보호됩니다.
 
 ---
 
 ## 🔄 실시간 & 고객 서비스
-- **WebSocket 양방향 연동**  
-  - 체크인/체크아웃/상태 변경 시 대시보드 카드/테이블이 **실시간 갱신**  
+- **WebSocket 양방향 연동**
+  - 체크인/체크아웃/상태 변경 시 대시보드 카드/테이블이 **실시간 갱신**
+  - 룸서비스 주문시 호텔 매니저 관리자 및 객식 이용고객의 쌍방향 메시지 전달  
   - 관리자 간 동시 편집 충돌을 줄이고, 현장 대응 속도 향상
 - **이메일 기반 고객 서비스**  
   - 예약 생성/수정 시 자동 메일 발송(회원명, 체크인/체크아웃, 룸 비번, **QR 인증 링크**)  
