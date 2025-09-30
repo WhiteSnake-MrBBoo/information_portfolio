@@ -82,13 +82,18 @@
 > 활용영역의 확장 - 예시)산재 예방(폴리곤 영역에 탐지된 객체의 위험요소 경고), 특정 클래스만 탐지 통계데이터 데이터 구조화 
 
 <!-- 시도 1: ./ 접두어 추가 (상대경로 명확화) -->
+<!-- CCTV Vision AI Dashboard 카드 (영상 버전) -->
 <div align="center">
   <a href="docs/cctv-vision-dashboard.md">
     <video 
       src="./assets/videos/cctv-dashboard.mp4"
       poster="./assets/cctv-dashboard-poster.png"
       width="820"
+<<<<<<< Updated upstream
       controlss
+=======
+      controls
+>>>>>>> Stashed changes
       muted
       playsinline
     >

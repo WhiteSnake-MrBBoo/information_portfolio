@@ -15,7 +15,7 @@
     muted
     playsinline
   >
-    <a href="../assets/videos/cctv-demo.mp4">Watch the demo video</a>
+    <a href="../assets/videos/cctv-dashboard.mp4">Watch the demo video</a>
   </video>
 
   <br/><br/>
