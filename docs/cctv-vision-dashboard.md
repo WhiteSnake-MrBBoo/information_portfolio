@@ -55,7 +55,7 @@ YOLOv11 + OpenCV 기반의 **실시간 CCTV 분석 대시보드**.
 ## 📺 시연 시나리오 (영상 흐름)
 1. CCTV 스트림 입력 → YOLOv11 탐지 결과 표시  
 2. 관리자가 **폴리곤 ROI** 지정 (예: 출입구, 복도, 위험 구역)  
-3. 객체(사람/차량 등)가 ROI에 진입 → 경보 패널에 🟥 ALERT 표시  
+3. 객체(사람/자동차/자전거/오토바이)가 ROI에 진입 → (사람/자전거) 경보 패널에 🟥 ALERT 표시  
 4. 동시에 차트에 카운팅 반영 → **실시간 그래프 변화 확인**  
 5. 다른 브라우저/클라이언트에서도 **WebSocket 브로드캐스트**로 동일 상태 동기화
 
@@ -64,4 +64,8 @@ YOLOv11 + OpenCV 기반의 **실시간 CCTV 분석 대시보드**.
 ## 🏗 아키텍처
 - **Backend:** Python 3.x, Flask + Socket.IO, Ultralytics YOLOv11, OpenCV  
 - **Frontend:** HTML5, JS/Canvas, Chart.js, 반응형 레이아웃  
-- **Pipeline:**  
+
+---
+
+### 📂 프로젝트 리포지토리
+[**GitHub – information_portfolio**](https://github.com/WhiteSnake-MrBBoo/information_portfolio)
