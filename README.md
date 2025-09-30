@@ -86,6 +86,10 @@
 
 ---
 
+[![프로젝트 상세보기](https://img.shields.io/badge/프로젝트_상세보기-FFFFFF?style=for-the-badge&logo=gitbook&logoColor=1B56FD)](https://github.com/WhiteSnake-MrBBoo/information_portfolio/blob/main/docs/cctv-vision-dashboard.md)
+
+---
+
 ### 3) UiPath 리뷰 요약 자동화 파이프라인
 **Stack:** UiPath, VB.NET Invoke Code, Newtonsoft JSON, Excel Activities  
 **핵심 기능:**  
