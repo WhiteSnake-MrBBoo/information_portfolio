@@ -2,13 +2,13 @@
 
 <!-- 클릭 가능한 대표 이미지 (데모 링크로 이동) -->
 <p align="center">
-  <a href="https://demo.hexastay.example.com" target="_blank" rel="noopener">
+  <a href="http://wooriproject.iptime.org:9002/admin/login" target="_blank" rel="noopener">
     <img src="../assets/hexastay-admin-overview.png" width="820" alt="HexaStay Admin Overview">
   </a>
 </p>
 
 ## 🔗 빠른 링크(Quick Links)
-- **프로젝트 도메인(데모)**: https://demo.hexastay.example.com  
+- **MAIN HexaStary 프로젝트 도메인**: http://wooriproject.iptime.org:9002
 - **API 문서(예시)**: https://demo.hexastay.example.com/api-docs  
 - **리포지토리(예시)**: https://github.com/your-id/hexastay-admin
 
