@@ -45,7 +45,7 @@ Spring Boot 3.4 + Thymeleaf + MariaDB 기반의 **호텔 관리 관리자 대시
 
 ---
 
-## 📱 모바일·QR 전용 섹션
+## 📱 객식 이용고개 모바일·QR 전용 섹션
 <p align="center">
   <!-- QR 이미지(샘플): 클릭 시 QR URL로 이동 -->
   <a href="http://wooriproject.iptime.org:9002/qr/4" target="_blank" rel="noopener">
