@@ -151,5 +151,5 @@ https://github.com/user-attachments/assets/e8ea065c-bf0c-4f93-a32d-d476e298a9bf
 
 ## 📄 링크 & 연락
 - Email: mrbulsapabb@gmail.com  
-- GitHub: https://github.com/your-id 
+- GitHub: https://github.com/WhiteSnake-MrBBoo
 - Resume: [KR PDF](assets/Resume_KR.pdf) · [EN PDF](assets/Resume_EN.pdf)
