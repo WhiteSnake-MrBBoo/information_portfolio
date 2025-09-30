@@ -82,7 +82,7 @@
 <!-- 시도 1: ./ 접두어 추가 (상대경로 명확화) -->
 <!-- CCTV Vision AI Dashboard 카드 (영상 버전) -->
 
-[https://github.com/user-attachments/assets/81555133-cf56-4822-ad65-072fa2bec378](https://github.com/user-attachments/assets/6ac37cd5-cd81-43d1-aa24-bd8845544354)
+https://github.com/user-attachments/assets/cf991294-5b1c-45b3-a008-12115700f62c
 
 ---
 
