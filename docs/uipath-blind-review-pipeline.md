@@ -1,53 +1,72 @@
+# UiPath 리뷰 요약·추론 자동화 파이프라인 (RPA + AI)
+
+## 🎬 데모 영상
+https://github.com/user-attachments/assets/e8ea065c-bf0c-4f93-a32d-d476e298a9bf
+
+> Ctrl/Cmd + 클릭으로 새 탭에서 재생 가능
+
 ---
 
-## 3) `docs/uipath-blind-review-pipeline.md`
+## 📌 개요
+**RPA 사무 자동화**로 수집된 기업 리뷰(예: 사내/설문/커뮤니티)를 **AI 프롬프트 추론**으로 요약·분석하고,  
+결과를 **Excel로 자동 내보내기**까지 이어지는 엔드투엔드 파이프라인입니다.  
+또한 **Blind TOP9**(예: 관심 기업 9곳)의 최신 리뷰/키워드 현황을 **실시간(주기적) 집계**하여 한 화면에서 비교할 수 있게 설계했습니다.
 
+- **핵심 가치**: 반복 수작업 제거, 객관적 요약/추론 표준화, 보고서 리드타임 단축  
+- **도메인**: RPA(백오피스 자동화) + AI(텍스트 요약·추론) + Excel 리포팅
 
-# UiPath 리뷰 요약 자동화 파이프라인
+---
 
-## 🎬 데모 영상 (UiPath Review Pipeline)
+## 🎯 문제 → 접근 → 성과
+- **문제**  
+  - 대량 리뷰를 사람이 수작업으로 읽고 요약/정리 → 느리고 편향 리스크  
+  - 보고서 일관성·형식 불일치, 추적/재현 어려움
+- **접근**  
+  - UiPath로 **수집·정제·API호출·검증·내보내기** 자동화  
+  - **표준 프롬프트**와 **JSON 스키마** 강제 → 기계가 처리 가능한 구조화 데이터 확보  
+  - **Blind TOP9** 대상 **키워드/감성** 실시간 집계(주기적 트리거)
+- **성과**  
+  - 보고서 리드타임 **대폭 단축**, 사람은 **판단/의사결정**에 집중  
+  - 추론 결과의 **일관성/재현성** 확보, 감독 가능
 
-<div align="center">
+---
 
-  <video
-    src="../assets/videos/uipath-demo.mp4"
-    poster="../assets/uipath-pipeline-poster.png"
-    width="820"
-    controls
-    muted
-    playsinline
-  >
-    <a href="../assets/videos/uipath-demo.mp4">Watch the demo video</a>
-  </video>
+## 🧩 핵심 기능
+- **AI 요약·추론(Structure)**: 긍/부정 키워드, 최종 추천(추천/중립/비추천), 이유(<=15자)  
+- **표준 JSON 출력** 강제 → Excel/DB로 안정적 유입  
+- **Excel 자동화**: 줄바꿈/열 폭/시트 생성/누적 모드 지원  
+- **오류 내성**: 파싱 실패/토큰 초과/빈 응답 시 **Decision 컬럼에 원문 JSON 기록**  
+- **Blind TOP9 실시간 집계(옵션)**: 9개 기업의 최신 리뷰/키워드 Top-N 차트화
 
-  <br/><br/>
+---
 
-  <a href="../assets/videos/uipath-demo.mp4" target="_blank" rel="noopener">
-    <img src="../assets/uipath-pipeline-poster.png" width="360" alt="Open UiPath Demo Video">
-  </a>
+## 🧠 프롬프트 설계
+> 아래는 실제 사용한 **지침 + 출력 포맷**을 프롬프트로 고정하여 **편향을 최소화**하고 **일관된 JSON**을 얻는 방식입니다.
+<img width="1048" height="783" alt="스크린샷 2025-09-30 235519" src="https://github.com/user-attachments/assets/9a51cf73-14bd-4c36-ad6a-39c206ec63e5" />
 
-</div>
+---
 
+```text
+당신은 객관적이고 공정한 데이터 분석 전문가입니다.
+리뷰 데이터를 읽고 사람의 감정을 과도하게 넣지 않으며, 항상 간결하고 중립적으로 판단합니다.
+AI 분석 결과는 의사결정을 돕는 참고자료라는 점을 명심하세요.
 
-## 개요
-Blind 리뷰 텍스트를 긍/부정/결론 3단으로 요약하고 Excel로 자동 출력.
+아래 입력은 하나의 JSON입니다.
+형식: {"company":"회사명","reviews":{"rv":"리뷰텍스트","rt":평점(double)...}}
+이 데이터를 분석하여 반드시 아래 JSON 형식으로만 답변하세요:
 
-## 문제 → 접근 → 성과
-- **문제:** 대량 텍스트 수작업 요약/정리의 비효율  
-- **접근:** Invoke Code(VB.NET)로 JSON 파싱 안전화, MaxLength=-1, 오류 시 Decision에 기록  
-- **성과:** 보고서 리드타임 단축, 파이프라인 표준화
+{
+  "positives": ["장점 키워드1", "장점 키워드2", "장점 키워드3"],
+  "negatives": ["단점 키워드1", "단점 키워드2", "단점 키워드3"],
+  "decision": {
+    "recommendation": "추천|중립|비추천",
+    "reason": "AI가 최종 결정을 내린 핵심 이유 (최대 15자)"
+  }
+}
 
-## 핵심 기능
-- `choices[0].message.content`/`text` 파싱, 예외 안전
-- `Dt_Blind_Ai_Result` 스키마 자동 구성(열 MaxLength=-1)
-- Excel 출력(줄바꿈/열 폭)
-
-## 기술 스택
-UiPath, VB.NET Invoke Code, Newtonsoft JSON, Excel Activities
-
-## 사용(요약)
-- XAML 내 Invoke Code에 샘플 코드 삽입
-- 변수: `Dt_Blind_New_Review_Table`(In), `Dt_Blind_Ai_Result`(Out)
-
-## 배운 점
-- 예외를 데이터로 남겨 재현성/추적성 확보
+규칙:
+1) positives/negatives 배열은 반드시 3개의 '짧은 키워드'만 포함(한 단어~최대 5자).
+2) 장점과 단점은 중복되지 않으며, 리뷰에서 가장 많이 언급된 주제를 우선.
+3) recommendation은 '추천' 또는 '중립' 또는 '비추천' 중 하나만.
+4) reason은 최대 15자 이내로 간결히.
+5) JSON 객체 외의 텍스트, 설명, 코드블록은 출력하지 말 것.
