@@ -7,23 +7,8 @@
 <div align="center">
 
   <!-- HTML5 비디오 -->
-  <video 
-    src="../assets/videos/cctv-dashboard.mp4"
-    poster="../assets/cctv-dashboard-poster.png"
-    width="820"
-    controls
-    muted
-    playsinline
-  >
-    <a href="../assets/videos/cctv-dashboard.mp4">Watch the demo video</a>
-  </video>
 
-  <br/><br/>
-
-  <!-- 썸네일 링크 (fallback) -->
-  <a href="../assets/videos/cctv-dashboard.mp4" target="_blank" rel="noopener">
-    <img src="../assets/cctv-dashboard-poster.png" width="360" alt="Open CCTV Demo Video">
-  </a>
+https://github.com/user-attachments/assets/6ac37cd5-cd81-43d1-aa24-bd8845544354
 
 </div>
 
