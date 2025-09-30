@@ -9,7 +9,7 @@
 
 ## 🔗 빠른 링크(Quick Links)
 - **MAIN HexaStary 프로젝트 도메인**: http://wooriproject.iptime.org:9002
-- **API 문서(예시)**: https://demo.hexastay.example.com/api-docs  
+- **QR 링크 : 고객이용용**: http://wooriproject.iptime.org:9002/qr/4
 - **리포지토리(예시)**: https://github.com/your-id/hexastay-admin
 
 > ⚠️ 보안상 실제 운영 도메인과 자격증명은 노출하지 않습니다. 아래 데모 계정은 샘플입니다.
