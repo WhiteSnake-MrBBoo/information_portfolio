@@ -67,5 +67,5 @@ YOLOv11 + OpenCV 기반의 **실시간 CCTV 분석 대시보드**.
 
 ---
 
-### 📂 프로젝트 리포지토리
-[**GitHub – information_portfolio**](https://github.com/WhiteSnake-MrBBoo/information_portfolio)
+## 🔙 메인 포트폴리오로 돌아가기
+[![Back_to_README](https://img.shields.io/badge/Back_to_Main_README-1B56FD?style=for-the-badge&logo=github&logoColor=white)](https://github.com/WhiteSnake-MrBBoo/information_portfolio/blob/main/README.md)
