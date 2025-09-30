@@ -86,7 +86,8 @@
 
 ---
 
-[![프로젝트 상세보기](https://img.shields.io/badge/프로젝트_상세보기-FFFFFF?style=for-the-badge&logo=gitbook&logoColor=1B56FD)](https://github.com/WhiteSnake-MrBBoo/information_portfolio/blob/main/docs/cctv-vision-dashboard.md)
+[![CCTV_POLIGON_프로젝트_상세보기](https://img.shields.io/badge/CCTV_POLIGON_프로젝트_상세보기-FFFFFF?style=for-the-badge&logo=gitbook&logoColor=1B56FD)](https://github.com/WhiteSnake-MrBBoo/information_portfolio/blob/main/docs/cctv-vision-dashboard.md)
+
 
 ---
 
