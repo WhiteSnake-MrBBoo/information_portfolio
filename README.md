@@ -1,5 +1,3 @@
-<!-- Hero -->
-
 
 <div align="center">
   <h1>김부환 · Backend & RPA & CV Engineer</h1>
@@ -83,24 +81,8 @@
 
 <!-- 시도 1: ./ 접두어 추가 (상대경로 명확화) -->
 <!-- CCTV Vision AI Dashboard 카드 (영상 버전) -->
-<div align="center">
-  <a href="docs/cctv-vision-dashboard.md">
-    <video 
-      src="./assets/videos/cctv-dashboard.mp4"
-      poster="./assets/cctv-dashboard-poster.png"
-      width="820"
-<<<<<<< Updated upstream
-      controlss
-=======
-      controls
->>>>>>> Stashed changes
-      muted
-      playsinline
-    >
-      <a href="./assets/videos/cctv-dashboard.mp4">Watch the demo video</a>
-    </video>
-  </a>
-</div>
+
+https://github.com/user-attachments/assets/81555133-cf56-4822-ad65-072fa2bec378
 
 ---
 
