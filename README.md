@@ -1,6 +1,6 @@
 
 <div align="center">
-  <h1>김부환 · Backend & RPA & CV Engineer</h1>
+  <h1>JAVA · PYTHON · FLASK · Backend · AI_VISION · CV Engineer · LLM </h1>
 
   <!-- 스택 아이콘 (뱃지 벨트) -->
   <p align="center">
