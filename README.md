@@ -105,12 +105,12 @@
 - EXCEL로 결과 데이터 로컬 저장 / 데이터 분석 및 데이터 활용에 용의성 증가
 - 프롬프트 프리셋 & 파이프라인 표준화
 
-<!-- Card 3 -->
-<div align="center">
-  <a href="docs/uipath-blind-review-pipeline.md">
-    <img src="assets/uipath-pipeline-arch.png" alt="UiPath Review Summarization Pipeline" width="820">
-  </a>
-</div>
+https://github.com/user-attachments/assets/e8ea065c-bf0c-4f93-a32d-d476e298a9bf
+
+
+---
+
+[![RPA_기업리뷰_AI_SUMMARY_프로젝트_상세보기](https://img.shields.io/badge/RPA_기업리뷰_AI_SUMMARY_프로젝트_상세보기-0A66C2?style=for-the-badge&logo=openai&logoColor=white)](https://github.com/WhiteSnake-MrBBoo/information_portfolio/blob/main/docs/uipath-blind-review-pipeline.md)
 
 ---
 
@@ -150,7 +150,6 @@
 ---
 
 ## 📄 링크 & 연락
-- Email: youremail@example.com  
-- GitHub: https://github.com/your-id  
-- LinkedIn: https://www.linkedin.com/in/your-id  
+- Email: mrbulsapabb@gmail.com  
+- GitHub: https://github.com/your-id 
 - Resume: [KR PDF](assets/Resume_KR.pdf) · [EN PDF](assets/Resume_EN.pdf)
