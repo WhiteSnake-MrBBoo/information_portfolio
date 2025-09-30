@@ -7,12 +7,15 @@
   </a>
 </p>
 
-## 🔗 빠른 링크(Quick Links)
-- **MAIN HexaStary 프로젝트 도메인**: http://wooriproject.iptime.org:9002
-- **QR 링크 : 고객이용용**: http://wooriproject.iptime.org:9002/qr/4
-- **리포지토리(예시)**: https://github.com/WhiteSnake-MrBBoo/information_portfolio
+## 🔗 빠른 링크 (Quick Links)
 
-> ⚠️ 보안상 실제 시스템 관리자 권한 부여 아이디는 노출하지 않습니다.
+- **메인 도메인** : [wooriproject.iptime.org:9002](http://wooriproject.iptime.org:9002)  
+- **QR 인증 페이지 (고객용)** : [wooriproject.iptime.org:9002/qr/4](http://wooriproject.iptime.org:9002/qr/4) :암호 '7284'
+- **프로젝트 리포지토리** : [GitHub – information_portfolio](https://github.com/WhiteSnake-MrBBoo/information_portfolio)  
+
+> ### ℹ️ **Tip:** 링크를 새 탭에서 열려면 **Ctrl / Cmd + 클릭** 또는 **마우스 가운데 버튼**을 사용하세요.  
+> ⚠️ **주의:** 실제 시스템 운영 계정(ID/PW)은 보안상 공개하지 않습니다 양해 부탁 드립니다.
+
 
 ## 🔐 MAIN 로그인 정보
 - ## **ID:** `gimdPfud@gmail.com`  
