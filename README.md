@@ -84,7 +84,16 @@
 <!-- 시도 1: ./ 접두어 추가 (상대경로 명확화) -->
 <div align="center">
   <a href="docs/cctv-vision-dashboard.md">
-    <img src="./assets/cctv-dashboard.png" alt="CCTV Vision AI Dashboard" width="820">
+    <video 
+      src="./assets/videos/cctv-demo.mp4"
+      poster="./assets/cctv-dashboard-poster.png"
+      width="820"
+      controls
+      muted
+      playsinline
+    >
+      <a href="./assets/videos/cctv-demo.mp4">Watch the demo video</a>
+    </video>
   </a>
 </div>
 
