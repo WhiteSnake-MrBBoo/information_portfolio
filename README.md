@@ -115,42 +115,57 @@ https://github.com/user-attachments/assets/e8ea065c-bf0c-4f93-a32d-d476e298a9bf
 
 ---
 
-### 4) Excel → MariaDB “스키마 없이” 바로 저장
-**Stack:** Spring Boot, Apache POI(or EasyExcel), JDBC, MariaDB  
+### 4) Prompt-Driven AI Creative Pipeline 🎶🎥
+**Stack:** Suno (AI Music), Sora (AI Video), Prompt Engineering, Python  
+
 **핵심 기능:**  
-- Excel 업로드 → **테이블명 입력 → 존재 시 덮어쓰기 / 미존재 시 생성**  
-- **PK 타입 선택(INT/LONG)**, 첫 컬럼 자동 변환, 예외 메시지 UI 반영  
-- Controller → Service 분리, 알림/실패 시나리오 명확화
+- **프롬프트 엔지니어링 기반 AI 활용**  
+  - *Suno* → 입력된 가사/스타일/템포로 **맞춤 음악 생성**  
+  - *Sora* → 텍스트 프롬프트 기반 **뮤직비디오·애니메이션 자동 합성**  
+- **다양한 프롬프트 실험 → 결과물 변주**  
+  - 색상 톤, 카메라 뷰, 스토리라인 등 프롬프트 패턴별 결과 비교  
+- **파이프라인 기록/문서화**  
+  - 프롬프트 → 결과물 → 개선 기록 → 템플릿화
 
 **성과(예시):**  
-- 비개발자도 **데이터 적재** 가능 / 샌드박스 테이블로 도메인 실험 가속
+- 단일 프롬프트에서 **음악 + 영상 + 스토리**를 자동 생성  
+- 프롬프트 설계 패턴을 축적해 **재활용 가능한 템플릿** 확보  
+- “AI 활용 능력 = 개발자 생산성/창의성 강화”를 입증  
 
-<!-- Card 4 -->
-<div align="center">
-  <a href="docs/excel-to-mariadb-importer.md">
-    <img src="assets/excel-importer-erd.png" alt="Excel to MariaDB Importer" width="820">
-  </a>
-</div>
+<!-- Card 4 AI 프롬프트 예시-->
+
+https://github.com/user-attachments/assets/3fa89729-0793-48db-9c92-9fe08368ddf7
 
 ---
 
+## 🔗 AI _ 프롬프트 MUSIC_VIDEO 제작 상세 문서
+[![AI_PROMPT_CREATIVE_PIPELINE](https://img.shields.io/badge/AI_PROMPT_CREATIVE_PIPELINE-8A2BE2?style=for-the-badge&logo=openai&logoColor=white)](https://github.com/WhiteSnake-MrBBoo/information_portfolio/blob/main/docs/ai-prompt-creative-pipeline.md)
+
+---
+
+
+
 ## 🧰 기술 스택
-**Backend:** Spring Boot 3.4, JDK 21, Thymeleaf, ModelMapper, JPA, MariaDB, AWS  
-**Vision/ML:** Ultralytics YOLOv5–v11, OpenCV, (Streamlit/Flask/Socket.IO)  
+**Backend:** JAVA, Spring Boot 3.4, JDK 21, Thymeleaf, ModelMapper, JPA, MariaDB, AWS  
+**Vision/ML:** Ultralytics YOLOv5–v11, OpenCV, RoboFlow, Python 3.x, Flask  
 **RPA:** UiPath, VB.NET Invoke Code, Newtonsoft JSON, Excel Activities  
 **Frontend:** Bootstrap 5, HTML5/CSS3/JS, jQuery/Ajax/Fetch  
-**DevOps/Etc:** IntelliJ, GitHub, HeidiSQL, MobaXterm
+**Generative AI:** Suno (AI Music), Sora (AI Video), Prompt Engineering  
+**DevOps/Etc:** IntelliJ, GitHub, HeidiSQL, MobaXterm, Linux  
+
 
 ---
 
 ## 🧭 설계 & 문서화
-- **아키텍처/시퀀스/ERD**를 케이스 스터디에 포함  
+- **아키텍처/시퀀스/ERD/Prompt 구조도**를 케이스 스터디에 포함  
 - 공통 규칙: Principal 사용, ModelMapper 패턴, 로그 형식, CRUD 네이밍, 가독성 우선  
-- 예외 메시지는 **UI까지 전달**(사용자 가시성)
+- **예외 메시지/AI 추론 실패**도 UI까지 전달 → 사용자 가시성 강화  
+- **Prompt 실험 기록**을 통해 결과물 비교 및 재현성 보장
 
 ---
 
 ## 📄 링크 & 연락
-- Email: mrbulsapabb@gmail.com  
-- GitHub: https://github.com/WhiteSnake-MrBBoo
-- Resume: [KR PDF](assets/Resume_KR.pdf) · [EN PDF](assets/Resume_EN.pdf)
+- 📧 Email: [mrbulsapabb@gmail.com](mailto:mrbulsapabb@gmail.com)  
+- 🐙 GitHub: [WhiteSnake-MrBBoo](https://github.com/WhiteSnake-MrBBoo)  
+- 📄 Resume: [KR PDF](assets/Resume_KR.pdf) · [EN PDF](assets/Resume_EN.pdf)
+
