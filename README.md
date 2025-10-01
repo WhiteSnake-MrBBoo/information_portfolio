@@ -168,6 +168,9 @@ https://github.com/user-attachments/assets/3fa89729-0793-48db-9c92-9fe08368ddf7
 - 📧 Email: [mrbulsapabb@gmail.com](mailto:mrbulsapabb@gmail.com)  
 - 🐙 GitHub: [WhiteSnake-MrBBoo](https://github.com/WhiteSnake-MrBBoo)  
 - 📄 PPT:
+- [📄 (JAVA) SpringBoot SixthSense Hotel](./assets/SixthSense_hotel.pdf)
+- [📄 RPA Blind AI](./assets/RPA_Blind_AI.pdf)
+
 - [(JAVA)_SpringBoot_SixthSense_hotel.pdf](https://github.com/user-attachments/files/22631087/SixthSense_hotel.pdf)
 - [RPA_Blind_AI.pdf](https://github.com/user-attachments/files/22631097/RPA_Blind_AI.pdf)
 
