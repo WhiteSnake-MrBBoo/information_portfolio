@@ -138,7 +138,7 @@ https://github.com/user-attachments/assets/3fa89729-0793-48db-9c92-9fe08368ddf7
 
 ---
 
-## 🔗 AI _ 프롬프트 MUSIC_VIDEO 제작 상세 문서
+## 🔗 AI _Prompt MUSIC_VIDEO 제작 상세 문서
 [![AI_PROMPT_CREATIVE_PIPELINE](https://img.shields.io/badge/AI_PROMPT_CREATIVE_PIPELINE-8A2BE2?style=for-the-badge&logo=openai&logoColor=white)](https://github.com/WhiteSnake-MrBBoo/information_portfolio/blob/main/docs/ai-prompt-creative-pipeline.md)
 
 ---
