@@ -87,7 +87,8 @@ https://github.com/user-attachments/assets/cf991294-5b1c-45b3-a008-12115700f62c
 
 ---
 
-[![CCTV_POLIGON_프로젝트_상세보기](https://img.shields.io/badge/CCTV_POLIGON_프로젝트_상세보기-FFFFFF?style=for-the-badge&logo=gitbook&logoColor=1B56FD)](https://github.com/WhiteSnake-MrBBoo/information_portfolio/blob/main/docs/cctv-vision-dashboard.md)
+[![CCTV_POLIGON_프로젝트_상세보기](https://img.shields.io/badge/CCTV_POLIGON_프로젝트_상세보기-FF5722?style=for-the-badge&logo=gitbook&logoColor=white)](https://github.com/WhiteSnake-MrBBoo/information_portfolio/blob/main/docs/cctv-vision-dashboard.md)
+
 
 
 ---
@@ -170,9 +171,6 @@ https://github.com/user-attachments/assets/3fa89729-0793-48db-9c92-9fe08368ddf7
 - 📄 PPT:
 - [📄 (JAVA) SpringBoot SixthSense Hotel](./assets/SixthSense_hotel.pdf)
 - [📄 RPA Blind AI](./assets/RPA_Blind_AI.pdf)
-
-- [(JAVA)_SpringBoot_SixthSense_hotel.pdf](https://github.com/user-attachments/files/22631087/SixthSense_hotel.pdf)
-- [RPA_Blind_AI.pdf](https://github.com/user-attachments/files/22631097/RPA_Blind_AI.pdf)
 
 
 
