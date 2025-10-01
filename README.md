@@ -167,5 +167,5 @@ https://github.com/user-attachments/assets/3fa89729-0793-48db-9c92-9fe08368ddf7
 ## 📄 링크 & 연락
 - 📧 Email: [mrbulsapabb@gmail.com](mailto:mrbulsapabb@gmail.com)  
 - 🐙 GitHub: [WhiteSnake-MrBBoo](https://github.com/WhiteSnake-MrBBoo)  
-- 📄 Resume: [1.SpringBoot PDF](assets\SixthSense_hotel.pdf) · [2.RPA PDF](assets\RPA_Blind_AI.pdf)
+- 📄 PPT: [1.SpringBoot PDF](assets\SixthSense_hotel.pdf) · [2.RPA PDF](assets\RPA_Blind_AI.pdf)
 
