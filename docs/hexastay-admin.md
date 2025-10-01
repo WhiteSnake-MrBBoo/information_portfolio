@@ -31,10 +31,6 @@
 
 ---
 
-### 📂 프로젝트 리포지토리
-[**GitHub – information_portfolio**](https://github.com/WhiteSnake-MrBBoo/information_portfolio)
-
----
 
 ## 🧭 개요
 Spring Boot 3.4 + Thymeleaf + MariaDB 기반의 **호텔 관리 관리자 대시보드**입니다.  
@@ -96,4 +92,8 @@ Spring Boot 3.4 + Thymeleaf + MariaDB 기반의 **호텔 관리 관리자 대시
 - **Backend:** Spring Boot 3.4, JDK 21, ModelMapper, JPA, MariaDB, AWS  
 - **Frontend:** Thymeleaf, Bootstrap 5, HTML5/CSS3/JS  
 - **Integration:** SMTP(메일), WebSocket(대시보드 실시간), AI Inference API(Google Gemini)
+
+---
+## 🔙 메인 포트폴리오로 돌아가기
+[![Back_to_README](https://img.shields.io/badge/Back_to_Main_README-1B56FD?style=for-the-badge&logo=github&logoColor=white)](https://github.com/WhiteSnake-MrBBoo/information_portfolio/blob/main/README.md)
 
