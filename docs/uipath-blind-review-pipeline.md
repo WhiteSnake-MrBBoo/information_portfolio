@@ -1,6 +1,6 @@
 # UiPath 리뷰 요약·추론 자동화 파이프라인 (RPA + AI)
 
-## 🎬 데모 영상
+## 🎬 시연 영상 - BLIND REVIEW AI _ 추론
 https://github.com/user-attachments/assets/e8ea065c-bf0c-4f93-a32d-d476e298a9bf  
 > 재생 버튼 클릭 영상 재생
 
